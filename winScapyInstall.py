@@ -56,8 +56,6 @@ try:
 	os.system(pipPath + " install pyreadline")
 	os.system(pipPath + " install numpy")
 	os.system(pipPath + " install pycrypto")
-	os.system(pipPath + " install gnuplot-py")
-	os.system(pipPath + " install pyx==0.12.1")
 
 	# installing packages
 	print "[*] Installing packages..."
